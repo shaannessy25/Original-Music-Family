@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Original Music Family 
+![language](https://img.shields.io/badge/language-javascript-blue.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## :books: Table of Contents
 
-In the project directory, you can run:
+- [Installation](#package-installation)
+- [Usage](#rocket-usage)
+- [Support](#hammer_and_wrench-support)
+- [Contributing](#memo-contributing)
+- [License](#scroll-license)
 
-### `npm start`
+## :package: Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### First check if you have NPM installed
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before installing this Readme Generator you need to check if you have `Node.js`and `NPM` installed on your computer.
 
-### `npm test`
+To check if you have `Node.js` installed, run this command in your terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+node -v
+```
 
-### `npm run build`
+If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#then-install-the-readme-generator).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+v10.14.1
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To confirm that you have `NPM` installed you can run this command in your terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm -v
+```
 
-### `npm run eject`
+If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#then-install-the-readme-generator).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+6.4.1
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If `Node.js` or `NPM` is not installed you can install them on [this link](https://nodejs.org/en/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Don't forget to update `NPM` after installing `Node.js`:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm install npm@latest -g
+```
 
-## Learn More
+### Then install the Readme Generator
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm install --global readme-boilerplate
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :rocket: Usage
 
-### Code Splitting
+```sh
+readme-gen
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Then, you can modify the content of your readme.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Tips
 
-### Making a Progressive Web App
+Here are a few tips to make them more beautiful!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Screencasts with [RecordIt](http://recordit.co/)
 
-### Advanced Configuration
+![screencast](https://github.com/dbader/readme-template/blob/master/header.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+![screencast](http://recordit.co/images/logo.jpg)
+```
 
-### Deployment
+### Badges with [Shield](https://shields.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![badge](https://img.shields.io/badge/LEFT-RIGHT-brightgreen.svg) `![badge](https://img.shields.io/badge/LEFT-RIGHT-COLOR.svg)`
 
-### `npm run build` fails to minify
+### Emoji [cheatsheet](emoji.md)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- :hammer_and_wrench: `:hammer_and_wrench:`
+- :artificial_satellite: `:artificial_satellite:`
+- :small_red_triangle: `:small_red_triangle:`
+- :small_red_triangle_down: `:small_red_triangle_down:`
+- :white_check_mark: `:white_check_mark:`
+- :construction: `:construction:`
+- :warning: `:warning:`
+- :rocket: `:rocket:`
+- :books: `:books:`
+- :briefcase: `:briefcase:`
+- :package: `:package:`
+- :fire: `:fire:`
+- :star: `:star:`
+- :+1: `:+:`
+- :-1: `:-:`
+- :point_right: `:point_right:`
+- :point_down: `:point_down:`
+- :zap: `:zap:`
+- :cloud: `:cloud:`
+- :envelope_with_arrow: `:envelope_with_arrow:`
+- :memo: `:memo:`
+- :unicorn: `:unicorn:`
+
+## :hammer_and_wrench: Support
+
+Please [open an issue](https://github.com/leonard-henriquez/readme-boilerplate/issues/new) for support.
+
+## :memo: Contributing
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/leonard-henriquez/readme-boilerplate/compare/).
+
+## :scroll: License
+
+[GNU GPLv3](LICENSE) © [Leonard Henriquez](https://github.com/leonard-henriquez/)
